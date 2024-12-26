@@ -6,6 +6,7 @@ public class Array {
         int arr[] = { 2, 5, 5, 9, 4, 7, 0, 9, 6, 11, 12 };
         System.out.println("Median: " + calculateMedian(arr));
         System.out.println("Mean: " + calculateMean(arr));
+        System.out.println("Standard Deviation: " + standardDeviation(arr));
     }
 
     public static double calculateMean(int[] arr) {
@@ -25,5 +26,15 @@ public class Array {
         } else {
             return arr[length / 2];
         }
+    }
+
+    public static double standardDeviation(int[] arr) {
+        int length = arr.length;
+        double mean = calculateMean(arr);
+        double sum = 0;
+        for (int num : arr) {
+            sum += Math.pow(num - mean, 2);
+        }
+        return Math.sqrt(sum / length);
     }
 }
