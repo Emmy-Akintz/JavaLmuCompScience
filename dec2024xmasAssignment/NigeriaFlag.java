@@ -2,6 +2,7 @@
 package dec2024xmasAssignment;
 
 public class NigeriaFlag {
+
     public static void main(String[] args) {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 12; j++) {

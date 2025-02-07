@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class ListNumberLoop {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a value:");
@@ -13,7 +15,6 @@ public class ListNumberLoop {
         //     }
         //     System.out.print("\n");
         // }
-
         // 6 rows and 4 columns with space between
         for (int row = 1; row <= 6; row++) {
             for (int col = 1; col <= 4; col++) {

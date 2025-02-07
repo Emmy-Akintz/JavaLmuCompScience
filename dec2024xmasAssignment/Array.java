@@ -2,8 +2,9 @@
 package dec2024xmasAssignment;
 
 public class Array {
+
     public static void main(String[] args) {
-        int arr[] = { 2, 5, 5, 9, 4, 7, 0, 9, 6, 11, 12 };
+        int arr[] = {2, 5, 5, 9, 4, 7, 0, 9, 6, 11, 12};
         System.out.println("Median: " + calculateMedian(arr));
         System.out.println("Mean: " + calculateMean(arr));
         System.out.println("Standard Deviation: " + standardDeviation(arr));

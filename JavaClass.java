@@ -1,7 +1,9 @@
 // a code to understand class, objects, attributes and methods
+
 import java.util.Scanner;
 
 public class JavaClass {
+
     // attribute
     String name = "Dominion";
 

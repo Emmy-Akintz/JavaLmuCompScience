@@ -4,6 +4,7 @@ package dec2024xmasAssignment;
 import java.util.Scanner;
 
 public class Array2 {
+
     public static void main(String[] args) {
         int[] array = new int[10];
         Scanner scanner = new Scanner(System.in);

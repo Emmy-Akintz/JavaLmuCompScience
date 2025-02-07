@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 class HelloWorld {
+
     public static void main(String[] args) {
         swapInput(1, 2);
         System.out.println("\n");
@@ -22,7 +24,7 @@ class HelloWorld {
         int r = scanner.nextInt();
         scanner.close();
         double PI = Math.PI;
-        double result = ((4/3) * PI * Math.pow(r, 3));
+        double result = ((4 / 3) * PI * Math.pow(r, 3));
         System.out.println("the answer when radius is " + r + " is " + result);
     }
 }

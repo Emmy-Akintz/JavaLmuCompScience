@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Array {
+
     public static void main(String[] args) {
         int[][] arr = new int[2][10];
         Scanner input = new Scanner(System.in);

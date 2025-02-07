@@ -1,3 +1,4 @@
+
 public class HCFandLCM {
 
     // hcf function
