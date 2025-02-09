@@ -1,0 +1,130 @@
+* data types
+* =, ==, ===
+* attributes, methods, objects, classes
+* concatenation vs addition
+* println vs print
+* if...else statements
+* INFINITE LOOP
+* switch case
+* break, continue<check ContinueLoop.java file>, return
+* loops (for, while, do-while) (post/pre increment/decrement)
+* Array (one-dimension, two-dimension) <check Array folder>
+* LOCAL AND GLOBAL VARIABLE
+* initializing class and why (static<can be used directly>)
+* argument, parameters
+* UML
+
+
+DATA TYPES
+int(5, 6, 7, 35, 45), char('M', '5', 'v'), String("Emmy", "456", "5"), boolean(true, false), float(45.88, 6.00), double(56.7766)
+
+
+= assignment operator (LHS = RHS)
+(
+    VARIABLES
+    datatype nameOfVariable = value;
+    EXAMPLES OF VARIABLES
+    int number = 5;
+    String name = "Nonso";
+    name = "Somto";
+    char grade = 'A';
+    boolean isHungry = false;
+    isHungry = true;
+)
+== loose comparison (checks for value)
+(
+    // checks if two values are the same
+    5 == '5'✅
+    6 == "6"✅
+    7 == 7✅
+
+    IF...ELSE STATEMENTS
+    int num = 5;
+    if (num == 6) {
+        // do something
+    } else {
+        // do another thing
+    }
+
+    if (true) {
+        //this works!
+    }
+    if (false) {
+        //this skips the block!
+    }
+)
+=== strict comparison (checks for both value and datatype)
+(
+    5 === '5'❌
+    6 === "6"❌
+    7 === 7✅
+    "7" === "7"✅
+)
+
+ATTRIBUTES, METHODS, OBJECTS, CLASSES
+* Method is a function inside a class
+* Attribute is a variable inside a class
+* Class is a compilation of methods and attributes in which the methods can perform certain function/actions on the attributes.
+* Object is an instance of a class
+class Cars
+object Benz, Toyota
+
+CONCATENATION
+"5" + "5" = "55"
+"5"+5 = 55
+-addition of strings
+ADDITION
+5+5 = 10
+
+println
+- goes to the next line before printing
+print
+- prints on the same line
+
+SWITCH CASE
+char value;
+switch (value):
+    case 'A':
+        return "Excellent";
+        break;
+    case 'B':
+        return "Good";
+        break;
+    default:
+        return "Enter a valid grade";
+        break;
+- check for Grade.java file to see examples
+
+FOR LOOP
+initial statements
+conditional statements
+increment/decrement statement
+for (initial, conditional, increment/decrement) {
+    // block of code
+}
+for (int i = 0; i < 5; i++) {
+    output i // 0, 1, 2, 3, 4
+    // do something (0, 1, 2, 3, 4)
+}
+for (int j = 5; j > 0; j--) {
+    output j // 5, 4, 3, 2, 1
+    // do something (5, 4, 3, 2, 1)
+}
+
+POST INCREMENT
+x++ (use x before increasing it)
+PRE INCREMENT
+++x (increase x before use)
+POST DECREMENT
+x-- (use x before decreasing it)
+PRE DECREMENT
+--x (decrease x before use)
+
+INFINITE LOOP
+for (int i = 0; true; i++) {
+    //infinite loop
+}
+for (int j = 5; j > 0; j++) {
+    // will be infinite coz the number keeps going up from 5 and it will always be greater than 0
+    System.out.println("Infinite loop " + j);
+}
